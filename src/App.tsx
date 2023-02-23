@@ -20,6 +20,7 @@ import {
   Layout,
   OffLayoutArea,
 } from "components/layout";
+import {ListInferencer} from "./components/inferencer/list";
 
 function App() {
   return (
@@ -32,7 +33,7 @@ function App() {
         resources={[
           {
             name: "posts",
-            list: AntdInferencer,
+            list: ListInferencer,
             edit: AntdInferencer,
             show: AntdInferencer,
             create: AntdInferencer,
